@@ -11,7 +11,7 @@ CREATE TABLE F1RaceStats (
     fastest_lap_time DECIMAL(6,3), -- seconds
     pit_stops INT,
     tire_strategy VARCHAR(50),
-    points_earned INT,
+    points INT,
     status VARCHAR(50), -- Finished, DNF, DSQ
     PRIMARY KEY (race_id, driver_id)
 );
